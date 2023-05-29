@@ -1,0 +1,13 @@
+	  Bill
+ Address:коммунистическая 41б кв. 22
+ Price:1600000
+ Payment:50000
+ Payment type:наличные
+ Additional services:6500
+
+
+ Total amount payable:1656500
+ Employee:zxc
+ 
+ Выдано в приложении AppRealtor
+ Номер вашей покупки: 348084737

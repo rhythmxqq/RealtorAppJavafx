@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="453.0" prefWidth="756.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realtoranalytics.MenuMainRealtor">
+   <children>
+      <TableView fx:id="tableList_saling" layoutX="164.0" layoutY="47.0" onMouseClicked="#OnSelectedflat" prefHeight="339.0" prefWidth="581.0">
+        <columns>
+          <TableColumn fx:id="address_column" prefWidth="116.0" text="Address" />
+          <TableColumn fx:id="price_column" minWidth="1.06378173828125" prefWidth="102.0" text="Price" />
+            <TableColumn fx:id="payment_column" minWidth="1.06378173828125" prefWidth="95.5" text="Payment" />
+            <TableColumn fx:id="phoneNumber_column" minWidth="1.06378173828125" prefWidth="103.0" text="Phone number" />
+            <TableColumn fx:id="paymentType_column" minWidth="1.06378173828125" prefWidth="92.0" text="Payment type" />
+            <TableColumn fx:id="tableColumnColor" prefWidth="71.0" text="Type" />
+        </columns>
+      </TableView>
+      <Button fx:id="reserve_button" layoutX="228.0" layoutY="399.0" mnemonicParsing="false" onAction="#clickButtonReservePlus" prefHeight="26.0" prefWidth="86.0" text="Reserve" />
+      <Button fx:id="sale_button" layoutX="435.0" layoutY="398.0" mnemonicParsing="false" onAction="#click_saleButton" prefHeight="26.0" prefWidth="86.0" text="Sale" />
+      <Button fx:id="add_button" layoutX="647.0" layoutY="397.0" mnemonicParsing="false" onAction="#clickAddButton" prefHeight="26.0" prefWidth="86.0" text="Add" />
+      <Label layoutX="31.0" layoutY="64.0" text="Information">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="323.0" layoutY="4.0" text="RealtorApp">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="text_address" alignment="CENTER" layoutX="12.0" layoutY="110.0" prefHeight="17.0" prefWidth="143.0" text="Address" />
+      <Label fx:id="text_price" alignment="CENTER" layoutX="12.0" layoutY="141.0" prefHeight="17.0" prefWidth="143.0" text="Price" />
+      <Label fx:id="text_payment" alignment="CENTER" layoutX="24.0" layoutY="174.0" prefHeight="17.0" prefWidth="115.0" text="Payment" />
+      <Label fx:id="text_phone" alignment="CENTER" layoutX="24.0" layoutY="208.0" prefHeight="17.0" prefWidth="115.0" text="Phone number" />
+      <Label fx:id="text_typeP" alignment="CENTER" layoutX="24.0" layoutY="242.0" prefHeight="17.0" prefWidth="115.0" text="Payment Type" />
+      <Label fx:id="text_hide" layoutX="-36.0" layoutY="431.0" text="." visible="false">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </Label>
+      <Label fx:id="text_money" alignment="CENTER" layoutX="9.0" layoutY="20.0" prefHeight="20.0" prefWidth="143.0" text="0">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label layoutX="155.0" layoutY="20.0" text="₽">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Button fx:id="buttonCheckMoney" layoutX="183.0" layoutY="19.0" mnemonicParsing="false" onAction="#ClickButtonCheckMoney" prefHeight="17.0" prefWidth="20.0" text="⌛">
+         <font>
+            <Font name="Apple Braille" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="saleListButton" layoutX="55.0" layoutY="360.0" mnemonicParsing="false" onAction="#clickSaleButton" text="Sales list" />
+      <Button fx:id="buttonReserveList" layoutX="45.0" layoutY="317.0" mnemonicParsing="false" onAction="#clickReserveButtonList" text="Reserves list" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+	  Bill
+ Address:8 марта
+ Price:2300000
+ Payment:85000
+ Payment type:наличные
+ Additional services:9000
+
+
+ Total amount payable:2394000
+ Employee:zxc
+ 
+ Выдано в приложении AppRealtor
+ Номер вашей покупки: 50904638

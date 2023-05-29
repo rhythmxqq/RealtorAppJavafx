@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realtoranalytics.RegistrationClass">
+   <children>
+      <Button fx:id="regButton" layoutX="237.0" layoutY="333.0" mnemonicParsing="false" onAction="#reg_button_enter" prefHeight="40.0" prefWidth="126.0" text="Enter" />
+      <TextField fx:id="reg_log_table" layoutX="42.0" layoutY="213.0" prefHeight="25.0" prefWidth="207.0" promptText="Login" style="-fx-background-color: #fafafa;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="reg_password_table" layoutX="353.0" layoutY="213.0" prefHeight="33.0" prefWidth="207.0" promptText="Password" style="-fx-background-color: #fafafa;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <AnchorPane prefHeight="80.0" prefWidth="600.0" style="-fx-background-color: #85BB65;">
+         <opaqueInsets>
+            <Insets bottom="10.0" top="5.0" />
+         </opaqueInsets>
+         <children>
+            <Label layoutX="188.0" layoutY="24.0" prefHeight="34.0" prefWidth="225.0" text="Registration windows">
+               <font>
+                  <Font name="Apple Color Emoji" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="reg_name_table" layoutX="42.0" layoutY="130.0" prefHeight="25.0" prefWidth="207.0" promptText="Name" style="-fx-background-color: #fafafa;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="reg_lastName_table" layoutX="353.0" layoutY="130.0" prefHeight="25.0" prefWidth="207.0" promptText="Lastname" style="-fx-background-color: #fafafa;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

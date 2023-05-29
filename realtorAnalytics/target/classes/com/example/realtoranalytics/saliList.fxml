@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realtoranalytics.saleWindowList">
+   <children>
+      <TableView fx:id="tableList_saling" layoutX="10.0" layoutY="14.0" prefHeight="339.0" prefWidth="581.0">
+         <columns>
+            <TableColumn fx:id="address_column" prefWidth="116.0" text="Address" />
+            <TableColumn fx:id="price_column" minWidth="1.06378173828125" prefWidth="102.0" text="Price" />
+            <TableColumn fx:id="payment_column" minWidth="1.06378173828125" prefWidth="95.5" text="Payment" />
+            <TableColumn fx:id="phoneNumber_column" minWidth="1.06378173828125" prefWidth="103.0" text="Phone number" />
+            <TableColumn fx:id="paymentType_column" minWidth="1.06378173828125" prefWidth="92.0" text="Payment type" />
+            <TableColumn fx:id="tableColumnColor" prefWidth="71.0" text="Type" />
+         </columns>
+      </TableView>
+      <Button fx:id="backButton" layoutX="14.0" layoutY="360.0" mnemonicParsing="false" onAction="#clickBackButton" text="Back" />
+   </children>
+</AnchorPane>

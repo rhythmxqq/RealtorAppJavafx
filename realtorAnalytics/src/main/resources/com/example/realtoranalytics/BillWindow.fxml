@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="446.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realtoranalytics.MoneyBillClass">
+   <children>
+      <Label layoutX="209.0" layoutY="14.0" prefHeight="33.0" prefWidth="29.0" text="Bill">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="73.0" text="Address">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="121.0" text="Price">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="172.0" text="Payment">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="231.0" text="Payment Type">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="272.0" text="Additional services">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="442.0" text="Total amount payable:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="TotalSumMoney" layoutX="271.0" layoutY="442.0" prefHeight="26.0" prefWidth="73.0" text="0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="EnterButton" layoutX="182.0" layoutY="504.0" mnemonicParsing="false" onAction="#ClickEnterTotalSumButton" text="Enter">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="address_text_bill" layoutX="116.0" layoutY="72.0" text="Label">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="price_text_bill1" layoutX="116.0" layoutY="120.0" text="Label">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="payment_text_bill11" layoutX="116.0" layoutY="171.0" text="Label">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="paymentType_text_bill" layoutX="158.0" layoutY="230.0" text="Label">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="PlusSalary_text_money" layoutX="199.0" layoutY="271.0" text="Label">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="318.0" text="Employee">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="UserName" layoutX="140.0" layoutY="318.0" text="Label">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
