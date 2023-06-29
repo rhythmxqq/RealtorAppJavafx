@@ -51,6 +51,8 @@ SceneBuilder - упрощение создания граффического м
 
 # Использованые источники
 
+[Корректное использование JavaFx](https://metanit.com/java/javafx/2.2.php)
+
 [Mysql](https://metanit.com/sql/)
 
 [Работа с TableView](https://metanit.com/java/javafx/4.13.php)
