@@ -35,10 +35,10 @@ public class RegistrationClass {
     void reg_button_enter(ActionEvent event) {
         boolean result = reg_name_table.getText().matches("[A-zА-я]*") || reg_lastName_table.getText().matches("[A-zА-я]*");
       if(reg_name_table.getText().equals("") && reg_lastName_table.getText().equals("")&& reg_password_table.getText().equals("") && reg_log_table.getText().equals("")){
-      //  JOptionPane.showMessageDialog(null,"Данные не введены");
+      JOptionPane.showMessageDialog(null,"Данные не введены");
         }
         else if(!result){
-      // JOptionPane.showMessageDialog(null, "Данные введены неверно");
+      JOptionPane.showMessageDialog(null, "Данные введены неверно");
        }
        else {
             regButton.getScene().getWindow().hide();

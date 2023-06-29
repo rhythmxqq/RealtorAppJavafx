@@ -1,0 +1,13 @@
+	  Bill
+ Address:коммунистическая 41б
+ Price:2400000
+ Payment:4343
+ Payment type:наличка
+ Additional services:6500
+
+
+ Total amount payable:2410843
+ Employee:zxc
+ 
+ Выдано в приложении AppRealtor
+ Номер вашей покупки: 609308911
