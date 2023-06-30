@@ -12,7 +12,7 @@ public class DataBaseHandler extends Configs {
         return dbConnection;
     }
     public void add_flat(flatConfig flatCon){
-        String insert = "INSERT INTO flatbase (address, price, payment, phone_number, paymentType)" + "VALUES (?,?,?,?,?)";
+        String insert = "INSERT INTO flatbase (address, price, payment, phone_number, paymentType, TypeSale)" + "VALUES (?,?,?,?,?,?)";
         try {
             PreparedStatement prSt = getDbConnection().prepareStatement(insert);
             prSt.setString(1,flatCon.getAddress());
@@ -20,6 +20,7 @@ public class DataBaseHandler extends Configs {
             prSt.setInt(3, flatCon.getPayment());
             prSt.setLong(4, flatCon.phone_number);
             prSt.setString(5, flatCon.getPaymentType());
+            prSt.setString(6, flatCon.getColor());
             prSt.executeUpdate();
         } catch (SQLException e) {
             throw new RuntimeException(e);

@@ -31,6 +31,7 @@ public class addClassWindow {
     @FXML
     void clickEnterButton(ActionEvent event) {
         DataBaseHandler db = new DataBaseHandler();
+        String color = "Продается";
         String address = address_textField.getText();
 
         Integer price = Integer.parseInt(price_textField.getText());
@@ -41,7 +42,7 @@ public class addClassWindow {
 
         String paymentType = paymentType_textField.getText();
 
-        flatConfig flat = new flatConfig(address, price, payment, phone_number, paymentType);
+        flatConfig flat = new flatConfig(color,address, price, payment, phone_number, paymentType);
         db.add_flat(flat);
         enterButton.getScene().getWindow().hide();
     }
